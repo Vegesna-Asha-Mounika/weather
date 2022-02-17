@@ -1,0 +1,10 @@
+.warning {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 3rem;
+	text-align: center;
+}
+
+.warning > * {
+	padding: 0.15rem 0;
+}

@@ -1,0 +1,21 @@
+.header {
+	padding: 2rem 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5rem;
+	border-style: 2px solid;
+}
+
+.header_title {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	border: 2px solid black;
+}
+
+@media (max-width: 375px) {
+	.header {
+		padding: 2rem;
+	}
+}
